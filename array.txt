@@ -1,1 +1,0 @@
-array: A data type that stores multiple values of the same type in an ordered list.

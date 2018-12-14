@@ -1,1 +1,0 @@
-asset catalog: A tool to manage assets like images that are used by your app as part of its user interface (UI).

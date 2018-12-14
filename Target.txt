@@ -1,1 +1,0 @@
-target: The object that receives the action message in the target-action pattern.

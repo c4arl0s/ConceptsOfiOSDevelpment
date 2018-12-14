@@ -1,1 +1,0 @@
-guard: A guard statement declares a condition that must be true in order for the code after the guard statement to be executed. Using a guard statement for requirements improves the readability of your code, compared to doing the same check with an if statement.

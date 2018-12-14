@@ -1,1 +1,0 @@
-control: A specialized type of view (specifically, an instance of the UIControl class or one of its subclasses) that responds to user input.

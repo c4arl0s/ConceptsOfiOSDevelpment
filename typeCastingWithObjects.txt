@@ -1,5 +1,0 @@
-var etiqueta: UILabel = UILabel()
-var vista: UIView = etiqueta as UIView
-
-var vistaEtiqueta: UIView = UILabel()
-var etiquetavista: UILabel = vistaEtiqueta as! UILabel

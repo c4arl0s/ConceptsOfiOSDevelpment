@@ -1,1 +1,0 @@
-conditional statement: A control flow statement that checks whether a condition is true before executing a piece of code.

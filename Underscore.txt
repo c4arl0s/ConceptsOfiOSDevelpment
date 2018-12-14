@@ -1,1 +1,0 @@
-underscore: A representation of a wildcard in Swift (_).

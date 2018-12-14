@@ -1,1 +1,0 @@
-intrinsic content size: The minimum size needed to display all the content in a view without clipping or distorting that content.

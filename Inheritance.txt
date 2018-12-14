@@ -1,1 +1,0 @@
-inheritance: When a class is a subclass of another class, it gets all of its behavior (methods, properties, and other characteristics) from its superclass.

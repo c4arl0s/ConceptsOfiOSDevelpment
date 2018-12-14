@@ -1,1 +1,0 @@
-first responder: An object that is first to receive many kinds of app events, including key events, motion events, and action messages, among others.

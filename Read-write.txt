@@ -1,1 +1,0 @@
-read-write: A value that can be both viewed (read) and changed (written).

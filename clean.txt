@@ -1,1 +1,0 @@
-clean: Removes all the product files, as well as any object files or other intermediate files created during the build process.

@@ -1,1 +1,0 @@
-Model-View-Controller: (MVC) A pattern of app design in which view controllers serve as the communication pipeline between views and the data model.

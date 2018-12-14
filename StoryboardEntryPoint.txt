@@ -1,1 +1,0 @@
-storyboard entry point: The first scene that's shown from a storyboard when an app starts.

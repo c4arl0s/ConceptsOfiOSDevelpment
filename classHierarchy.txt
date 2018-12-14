@@ -1,1 +1,0 @@
-class hierarchy: A hierarchical representation of a class's relationships to its superclass and subclasses.

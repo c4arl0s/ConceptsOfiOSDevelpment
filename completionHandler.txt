@@ -1,1 +1,0 @@
-completion handler: A closure that's passed as a parameter to a method that calls the closure when it finishes executing.

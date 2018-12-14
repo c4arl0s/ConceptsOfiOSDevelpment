@@ -1,4 +1,0 @@
-Type Casting: is a way to treat an instance as if it were a different class in its inheritence chain.
-
-When you treat an instance as if it were a class higher up in the inheretence chain, it is called upcasting
-When you treat an instance as if it were a class farther down in the inherentence chain, it is called downcasting.

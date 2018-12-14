@@ -1,1 +1,0 @@
-assistant editor: In Xcode, a secondary editor window that appears side-by-side with your primary editor.

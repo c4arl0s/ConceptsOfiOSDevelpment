@@ -1,1 +1,0 @@
-identity operator: An operator (===) that tests whether two object references both refer to the same object instance.

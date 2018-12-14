@@ -1,1 +1,0 @@
-A view controller that manages the system interfaces for taking pictures, recording movies, and choosing items from the user's media library.

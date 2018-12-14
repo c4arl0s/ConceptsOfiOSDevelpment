@@ -1,1 +1,0 @@
-constant: A value that's initialized once and cannot change, indicated in Swift by the let keyword.

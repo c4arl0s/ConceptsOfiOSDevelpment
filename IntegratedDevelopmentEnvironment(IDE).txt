@@ -1,1 +1,0 @@
-integrated development environment (IDE): A software application that provides a set of tools for software development.

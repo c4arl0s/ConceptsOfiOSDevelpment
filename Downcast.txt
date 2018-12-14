@@ -1,1 +1,0 @@
-downcast: To attempt to cast an object to one of its subclass types.

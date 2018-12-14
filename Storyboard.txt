@@ -1,1 +1,0 @@
-storyboard: A file that contains a visual representation of the app's UI (user interface), showing screens of content and the transitions between them, that you work on in Interface Builder.

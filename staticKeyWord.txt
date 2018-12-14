@@ -1,5 +1,0 @@
-Static KeyWord
-
-To ensure that the constants are defined only one time and are not tied to a particular instance of your model, use the static keyword.
-
-example: static let DocumentDirectory

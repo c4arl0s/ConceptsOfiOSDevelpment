@@ -1,1 +1,0 @@
-scene: A storyboard representation of a screen of content in your app.

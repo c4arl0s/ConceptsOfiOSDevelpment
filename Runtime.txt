@@ -1,1 +1,0 @@
-runtime: The period during which a program is executing.

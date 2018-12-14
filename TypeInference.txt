@@ -1,1 +1,0 @@
-type inference: The ability of the Swift compiler to determine the type of a value from context, without an explicit type declaration.

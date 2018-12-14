@@ -1,1 +1,0 @@
-designated initializer: One of the primary initializers for a class; a convenience initializer within a class must ultimately call through to a designated initializer.

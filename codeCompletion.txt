@@ -1,1 +1,0 @@
-code completion: A feature of Xcode that infers what you're trying to type from context and provides suggestions that you can select.

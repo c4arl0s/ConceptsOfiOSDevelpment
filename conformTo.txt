@@ -1,1 +1,0 @@
-conform to: For a class, structure, or enumeration to satisfy the requirements of a protocol.

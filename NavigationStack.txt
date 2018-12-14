@@ -1,1 +1,0 @@
-navigation stack: The set of view controllers managed by a particular navigation controller.

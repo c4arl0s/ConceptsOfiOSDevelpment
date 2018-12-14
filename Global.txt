@@ -1,1 +1,0 @@
-global: A constant, variable, or function defined at the top-level scope of a program.

@@ -1,5 +1,0 @@
-you now have an initializer for the photoInfo type that the JSONDecoder can use to decode JSON into a PhotoInfo object. Next, you will need to update the completion handler in your network request so the it uses the new type instead of printing the json value. Add a line to your if-let check to initialize an instance of PhotoInfo, then print the value:
-
-let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
-				let jsonDecoder = JSONDecoder()
-

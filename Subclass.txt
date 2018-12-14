@@ -1,1 +1,0 @@
-subclass: A class that's a child of another class (known as its superclass).

@@ -1,1 +1,0 @@
-local: A constant or variable defined only within a particular, limited scope, like a loop, conditional statement, or function.

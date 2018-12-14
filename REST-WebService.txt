@@ -1,2 +1,0 @@
-REST web Service:
-All I mean by "REST web service" or even when I say "web service" or "API" is that we can send an HTTP request and we get back some data in a format thats easy to use in our app. Usually that format will be JSON.

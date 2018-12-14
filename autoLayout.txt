@@ -1,1 +1,0 @@
-Auto Layout: A layout engine that helps lay out your user interface (UI) based on the constraints you specify.

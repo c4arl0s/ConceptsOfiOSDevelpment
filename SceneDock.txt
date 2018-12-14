@@ -1,1 +1,0 @@
-scene dock: A bar that contains information related to a scene in a storyboard.

@@ -1,1 +1,0 @@
-override: To replace an implementation of a method defined on a superclass.

@@ -1,1 +1,0 @@
-UIKit: A Cocoa Touch framework for working with the user interface (UI) layer of an iOS app.

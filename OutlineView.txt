@@ -1,1 +1,0 @@
-outline view: A pane in a storyboard that lets you see a hierarchical representation of the objects in your storyboard.

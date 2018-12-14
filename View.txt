@@ -1,1 +1,0 @@
-view: An object that's used to construct your user interface (UI) and display content to the user.

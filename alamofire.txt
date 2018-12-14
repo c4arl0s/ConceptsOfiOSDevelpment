@@ -1,1 +1,0 @@
-- uso de imagenes: alamofire usa automaticamente otro hilo, y no tienes que preocuparte en ello. 

@@ -1,1 +1,0 @@
-base class: A class that's at the root of its class hierarchy, meaning that it has no superclass.

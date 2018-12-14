@@ -1,1 +1,0 @@
-inspector pane: An area in Xcode that displays inspectors, such as the Attributes inspector, Identity inspector, and Size inspector.

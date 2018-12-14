@@ -1,1 +1,0 @@
-Attributes inspector: An inspector that you use to customize visual attributes of a user interface (UI) element in a storyboard.

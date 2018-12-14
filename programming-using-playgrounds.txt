@@ -1,2 +1,0 @@
-Your first program in Swift on a Mac using a Playground
-Follow the procedure seen in class.
