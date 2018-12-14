@@ -1,0 +1,12 @@
+To compile and run separately, use swiftc: $ swiftc hello.swift
+
+$ swift hello.swift
+
+This will compile your code into hello file. To run it, enter ./, followed by a filename.
+
+Hello, world!
+
+$ ./hello
+Hello, world!
+
+  

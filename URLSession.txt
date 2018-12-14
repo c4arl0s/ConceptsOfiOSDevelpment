@@ -1,0 +1,2 @@
+URLSession, a complete networking API for uploading and downloading content via HTTP.
+URLSession is technically both a class and a suite of classes for handling HTTP/HTTPS-based requests:

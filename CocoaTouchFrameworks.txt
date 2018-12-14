@@ -1,0 +1,20 @@
+Foundation
+UIKit
+Address Book
+
+Cut, Copy and Paste
+Core Location
+Gyroscope and Accelerometer
+
+Multitasking
+iCloud
+System Configuration
+Camera and PhotoLibrary
+iPOd Media Library
+Text and Email Messaging
+Quick Look
+Accesories
+Multi-Touch Gestures
+StoreKit
+SpriteKit
+SiriKit

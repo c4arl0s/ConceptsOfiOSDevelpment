@@ -1,0 +1,5 @@
+* The vast majority of Objective-C developers are familiar with the use of nil to indicate a nonexistent value,but communicating that kind of information through a variable’s type is a bit more foreign.
+* In Objective-C, nil is a pointer to a non-existent object. 
+* In Swift, nil is not a pointer—it is the absence of a value of a certain type. Optionals of any type can be set to nil , not just object types. 
+* NULL has no equivalent in Swift. 
+* nil is also called nil in Swift.

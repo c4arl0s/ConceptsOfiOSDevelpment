@@ -1,0 +1,14 @@
+The entry point for every C-based app is the main function and iOS apps are no different. What is different is that for iOS apps you do not write the main function yourself. Instead, Xcode creates this function as part of your basic project. Listing 2-1 shows an example of this function. With few exceptions, you should never change the implementation of the main function that Xcode provides.
+
+Listing 2-1  The main function of an iOS app
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+ 
+int main(int argc, char * argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+    }
+}
+The only thing to mention about the main function is that its job is to hand control off to the UIKit framework. The UIApplicationMain function handles this process by creating the core objects of your app, loading your app’s user interface from the available storyboard files, calling your custom code so that you have a chance to do some initial setup, and putting the app’s run loop in motion. The only pieces that you have to provide are the storyboard files and the custom initialization code.
+

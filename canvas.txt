@@ -1,0 +1,1 @@
+canvas: The background of a storyboard where you add and arrange user interface (UI) elements.

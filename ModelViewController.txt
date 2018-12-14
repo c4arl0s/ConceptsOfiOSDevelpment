@@ -1,0 +1,36 @@
+- Use AppDelegate method to handle different events in the app life cycle.
+- Edit Main.storyboard file in Interface Builder to define views an create user interfaces.
+
+MODEL
+- A model object groups the data you need for a specific problem domain or a type of solution you are trying to build.
+- Model objects can be related to other model objects.
+- Most cases, you will create model objects by defining new structures or classes in your object.
+- Typically define structures an classes in a new swift file.
+
+Comminication
+- Model objects are usualu created in response to some user interaction with the view or a control. 
+- The message to create the model object is transmitted from the view through a controller object, which is most often a subclass of a viewcontroller.
+- Model objects should not have any direct connection to views.
+
+VIEWS
+- A view object knows ho to draw itself on the screen and may respond to user input.
+- View Objects display data about and apps model objects and to allow the user to edit that data.
+- Views can be reused or reconfigured to show different instances of model data.
+- Views often have an update or configure function that accepts a model object as a parameter, and uses the model object to update itself to match the data it is mean to display.
+
+CONTROLLERS
+- A controller object acts as the messenger between views and model objects.
+Three reasons to create a controller
+1.- Multiple objects or scenes need access to the model data.
+2.- The logic for adding, modifying, or deleting model data is complex.
+3.- You want to keep the code in your view controllers focused on magagin the views.
+
+Helper COntrollers
+- NetworkController
+- NoteListViewController
+- NoteDetailViewController
+
+Communication
+
+- COntroller objects are free to communicate or work directly with other objects.
+

@@ -1,0 +1,25 @@
+what did you do before ?
+- serialize JSON data into native Swift types.
+
+You have to prepare to serialize the data into your own custom model objects.
+
+{
+  "date": "2017-02-13",
+  "explanation": "Juno just completed its fourth pass near
+  Jupiter...",
+  "hdurl": "http://apod.nasa.gov/apod/image/1702/JupiterSouth_JunoPeach_1200.jpg",
+  "media_type": "image",
+  "service_version": "v1",
+  "title": "Cloud Swirls around Southern Jupiter from Juno",
+  "url": "http://apod.nasa.gov/apod/image/1702/
+  JupiterSouth_JunoPeach_960.jpg"
+}
+
+struct PhotoInfo {
+	var title: String
+	var description: String
+	var url: URL
+	var copyright: String?
+}
+
+

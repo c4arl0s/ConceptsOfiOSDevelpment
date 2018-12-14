@@ -17,11 +17,13 @@ class: A piece of code that describes the behavior and properties common to any 
 clean: Removes all the product files, as well as any object files or other intermediate files created during the build process.
 class hierarchy: A hierarchical representation of a class's relationships to its superclass and subclasses.
 closed range operator: An operator (...) that lets you create a range of numbers that includes both the lower and upper values.
-closure: A self-contained block of functionality that can be passed around and used in your code. Closures in Swift are similar to blocks in C and Objective-C and to lambdas in other programming languages.
+closure: A self-contained block of functionality that can be passed around and used in your code. Closures in Swift are
+similar to blocks in C and Objective-C and to lambdas in other programming languages.
 Cocoa Touch: The set of Apple frameworks and technologies used to develop iOS apps.
 code completion: A feature of Xcode that infers what you're trying to type from context and provides suggestions that you can select.
 completion handler: A closure that's passed as a parameter to a method that calls the closure when it finishes executing.
-comment: A piece of text in a source code file that doesn't get compiled as part of the program but provides context or other useful information about individual pieces of code.
+comment: A piece of text in a source code file that doesn't get compiled as part of the program but provides context or
+other useful information about individual pieces of code.
 conditional statement: A control flow statement that checks whether a condition is true before executing a piece of code.
 conform to: For a class, structure, or enumeration to satisfy the requirements of a protocol.
 console: A tool for debugging and for logging information for debugging purposes.
@@ -54,8 +56,9 @@ half-open range operator: An operator (..<) that lets you create a range of numb
 Identity inspector: An inspector that you use to edit properties of an object in a storyboard related to that object's identity, such as what class the object belongs to.
 identity operator: An operator (===) that tests whether two object references both refer to the same object instance.
 immutable: A value that cannot be changed (or mutated) after it's initialized, like a constant.
-implement: To define the behavior of something in code.
-implicitly unwrapped optional: An optional that can also be used like a nonoptional value, without the need to unwrap the optional value each time it is accessed, because it's assumed to always have a value after that value is initially set.
+implement To define the behavior of something in code.
+implicitly unwrapped optional: An optional that can also be used like a nonoptional value, without the need to unwrap the optional value each
+time it is accessed, because it's assumed to always have a value after that value is initially set.
 inheritance: When a class is a subclass of another class, it gets all of its behavior (methods, properties, and other characteristics) from its superclass.
 initializer: A method that handles the process of preparing an instance of a class, structure, or enumeration for use, which involves setting an initial value for its properties and performing any other required setup.
 inspector pane: An area in Xcode that displays inspectors, such as the Attributes inspector, Identity inspector, and Size inspector.
@@ -69,7 +72,7 @@ local: A constant or variable defined only within a particular, limited scope, l
 loop: A control flow statement that executes the same piece of code multiple times.
 method: A reusable, named piece of code that's associated with a particular class, structure, or enumeration.
 modal segue: A segue in which one view controller presents another view controller as its child. The user must interact with the presented controller, and dismiss it before returning to the app's main flow. Use modal segues to present tasks that the user must complete before continuing.
-Model-View-Controller: (MVC) A pattern of app design in which view controllers serve as the communication pipeline between views and the data model.
+Model-View-Controller (MVC) A pattern of app design in which view controllers serve as the communication pipeline between views and the data model.
 mutable: A value that is able to be changed (or mutated) after it's initialized, like a variable.
 navigation controller: A specialized view controller subclass that manages transitions backward and forward through a series of view controllers.
 navigation stack: The set of view controllers managed by a particular navigation controller.

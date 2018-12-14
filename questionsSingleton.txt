@@ -1,0 +1,6 @@
+- Will anything else own, manage or be responsible for it?
+- Is there going to be exactly one instance?
+- Will it be a global state variable?
+- Should I really use a globally shared object?
+- Should live through the whole app lifecycle?
+- Is there any alternatives for it?

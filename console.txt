@@ -1,0 +1,1 @@
+console: A tool for debugging and for logging information for debugging purposes.

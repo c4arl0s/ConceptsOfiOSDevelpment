@@ -1,0 +1,1 @@
+application programming interface (API): A set of functions, classes, protocols, and other components that define how pieces of software should interact with each other.

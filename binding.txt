@@ -1,0 +1,3 @@
+Binding generally refers to a mapping of one thing to another. In the context of software libraries, bindings are wrapper libraries that bridge two programming languages, so that a library written for one language can be used in another language.
+
+Binding of data and functions in one single unit named class is know as encapsulation. Encapsulation provides data hiding facility. In programming languages encapsulation is implemented using classes. Basically binding means to associate data and functions with a particular unit i.e. class. So variable and functions are bind to class means they are related to only the class in which they are declared. To access them outside class one must use object(instance) of that class or class name. So they are bind to the class.
