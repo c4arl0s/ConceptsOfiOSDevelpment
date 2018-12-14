@@ -1,2 +1,1 @@
-comment: A piece of text in a source code file that doesn't get compiled as part of the program but provides context or
-other useful information about individual pieces of code.
+comment: A piece of text in a source code file that doesn't get compiled as part of the program but provides context or other useful information about individual pieces of code.

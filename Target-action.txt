@@ -1,0 +1,1 @@
+target-action: A design pattern in which one object sends a message to another object when a specific event occurs.

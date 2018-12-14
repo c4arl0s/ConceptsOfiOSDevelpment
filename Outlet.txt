@@ -1,0 +1,1 @@
+outlet: A reference to an object in a storyboard from a source code file.

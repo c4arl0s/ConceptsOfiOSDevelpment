@@ -1,14 +1,1 @@
-Typecasting is the process of passing on your extra knowledge to Swift – a way of saying “that thing you thought was an X is actually a Y”. Swift won’t let you typecast completely unrelated types, which means you can’t say things like “that thing you thought was a string is actually an integer”, but is instead mainly used for subclasses.
-
-example:
-
-let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController
-
-- That as? is a typecast - we’re passing on to Swift the knowledge that the view controller we expect to be created is in fact a DetailViewController. 
-- If the typecast fails then vc will be nil, but if it succeeds then Swift will be able to use it as a DetailViewController.
-
-is - This operator returns a Boolean value indicating whether or not the value is of a certain data type.
-as - This operator converts a value of one class to another class when possible.
-
-as convert the object with the as operator to be able to access their properties and methods.
-The operator as converts a value of one type to another.
+type casting: A way to check the type of an object, and to treat that object as if it's a different superclass or subclass from somewhere else in its own class hierarchy.

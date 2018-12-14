@@ -1,0 +1,1 @@
+function: A reusable, named piece of code that can be referred to from many places in a program.

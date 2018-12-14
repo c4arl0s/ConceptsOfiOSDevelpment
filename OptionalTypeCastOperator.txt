@@ -1,0 +1,1 @@
+optional type cast operator: An operator (as?) that attempts a downcast and returns the result as an optional value.

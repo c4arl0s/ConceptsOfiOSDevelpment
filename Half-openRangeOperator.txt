@@ -1,0 +1,1 @@
+half-open range operator: An operator (..<) that lets you create a range of numbers that includes the lower but not the upper value.

@@ -1,0 +1,1 @@
+Size inspector: An inspector that you use to edit the size and position of a user interface (UI) element in a storyboard.

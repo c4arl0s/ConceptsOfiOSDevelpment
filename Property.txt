@@ -1,0 +1,1 @@
+property: A piece of data encapsulated within a class, structure, or enumeration.

@@ -1,0 +1,1 @@
+utility area: An area in Xcode that displays the inspector pane and .

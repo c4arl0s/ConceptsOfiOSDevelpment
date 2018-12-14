@@ -1,0 +1,1 @@
+optional binding: The process of attempting to assign an optional value to a constant in a conditional statement to see if the optional contains an underlying value.

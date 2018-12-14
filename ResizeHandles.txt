@@ -1,0 +1,1 @@
+resize handles: Small white squares that appear on a user interface (UI) element's borders when it's selected so you can change its size on the canvas.

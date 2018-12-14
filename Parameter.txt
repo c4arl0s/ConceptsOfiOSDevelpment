@@ -1,0 +1,1 @@
+parameter: An additional piece of information that must be passed into a function, method, or initializer when it's called.

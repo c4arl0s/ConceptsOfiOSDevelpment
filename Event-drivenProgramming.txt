@@ -1,0 +1,1 @@
+event-driven programming: A category of programming in which the flow of the app is determined by events: system events and user actions.

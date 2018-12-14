@@ -1,0 +1,1 @@
+content view: A view object that's located at the top of a view hierarchy, serving as a container for the subviews in its hierarchy.

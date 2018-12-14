@@ -1,0 +1,1 @@
+method: A reusable, named piece of code that's associated with a particular class, structure, or enumeration.

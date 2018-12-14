@@ -1,0 +1,1 @@
+user interface (UI): The layer of visual elements that lets a user interact with a piece of software.

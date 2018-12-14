@@ -1,0 +1,1 @@
+structure: A data type that's similar to a class, but doesn't support inheritance and is passed by value instead of by reference.

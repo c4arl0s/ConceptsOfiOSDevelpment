@@ -1,0 +1,1 @@
+Simulator: An app in Xcode that simulates the behavior and appearance of running an app on a device.

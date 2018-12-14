@@ -1,0 +1,1 @@
+implicitly unwrapped optional: An optional that can also be used like a nonoptional value, without the need to unwrap the optional value each time it is accessed, because it's assumed to always have a value after that value is initially set.

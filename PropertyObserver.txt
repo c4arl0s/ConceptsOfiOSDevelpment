@@ -1,0 +1,1 @@
+property observer: A piece of code that's called every time the value of a property is set. Use property observers to observe and respond to changes in the property's value.

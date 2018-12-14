@@ -1,0 +1,1 @@
+Object library: Part of the Xcode workspace window that shows a list of objects that can be added to a storyboard, including each object's name, description, and visual representation.

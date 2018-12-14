@@ -1,5 +1,1 @@
-* Una instancia (en inglés, instance) es la particularización, realización específica u ocurrencia de una determinada clase, entidad (modelo entidad-relación) o prototipo.
-
-* In object-oriented programming (OOP), an instance is a concrete occurrence of any object, existing usually during the runtime of a computer program. Formally, "instance" is synonymous with "object" as they are each a particular value (realization), and these may be called an instance object; "instance" emphasizes the distinct identity of the object. The creation of an instance is called instantiation.
-
-* An instance is a specific object built from a specific class.
+instance: A specific occurrence of a class (that is, an object), structure, or enumeration.

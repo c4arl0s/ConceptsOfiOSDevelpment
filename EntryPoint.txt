@@ -1,0 +1,1 @@
+entry point: Where control enters a program or piece of code.
