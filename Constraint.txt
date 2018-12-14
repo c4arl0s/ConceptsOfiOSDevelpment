@@ -1,0 +1,1 @@
+constraint: In Auto Layout, a rule that explains where one element should be located relative to another, what size it should be, or which of two elements should shrink first when something reduces the space available for each of them.

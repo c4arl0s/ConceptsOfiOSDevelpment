@@ -1,0 +1,1 @@
+action:	A piece of code that's linked to an event that can occur in your app.

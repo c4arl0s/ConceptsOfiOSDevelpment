@@ -1,0 +1,21 @@
+4 horas = 1 dia
+
+Asesoramiento
+requyerimientos -> $$
+documento de analisis de requerimientos funcionales -> $$
+
+not disclosure agreement
+
+cada vista tiene una complejidad
+
+facil = 4 horas
+media = 16 horas
+complejo = 24 horas
+experto = 48 horas
+
+(total de horas)*0.20 = gran total
+
+gran total * (costo de hora)*(1.16)*1.32*0.3
+
+(0.3 asesoria externa)
+

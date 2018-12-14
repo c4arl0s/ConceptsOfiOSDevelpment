@@ -1,0 +1,11 @@
+When you need a different key name
+
+Let’s say for the JSON, you want the key name to be “number_of_legs” (snake cased), instead of “numberOfLegs”.
+To customize the JSON key names, add CodingKeys enum to the struct.
+
+struct Animal: Codable {
+    var numberOfLegs: Int
+    enum CodingKeys: String, CodingKey {
+        case numberOfLegs = "number_of_legs"
+    }
+}

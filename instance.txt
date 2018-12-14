@@ -1,0 +1,1 @@
+instance: A specific occurrence of a class (that is, an object), structure, or enumeration.

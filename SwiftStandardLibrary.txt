@@ -1,0 +1,1 @@
+Swift standard library: A set of data types and capabilities designed for Swift and baked into the language.

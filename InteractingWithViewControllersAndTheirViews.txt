@@ -1,0 +1,16 @@
+Let’s look at some methods that are called during the lifecycle of a view controller and its view. Some of these methods you have already seen, and some are new.
+
+init(coder:) is the initializer for UIViewController instances created from a storyboard. When a view controller instance is created from a storyboard, its init(coder:) gets called once. You will learn more about this method in Chapter 16.
+
+init(nibName:bundle:) is the designated initializer for UIViewController.
+
+When a view controller instance is created without the use of a storyboard, its init(nibName:bundle:) gets called once. Note that in some apps, you may end up creating several instances of the same view controller class. This method will get called once on each view controller as it is created.
+
+loadView() is overridden to create a view controller’s view programmatically.
+
+viewDidLoad() is overridden to configure views created by loading an interface file. This method gets called
+after the view of a view controller is created.
+
+viewWillAppear(_:) is overridden to configure views created by loading an interface file.
+
+This method and viewDidAppear(_:) get called every time your view controller is moved onscreen. viewWillDisappear(_:) and viewDidDisappear(_:) get called every time your view controller is moved offscreen.

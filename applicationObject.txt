@@ -1,0 +1,1 @@
+application object: An object in your app that's responsible for managing the life cycle of the app, communicating with its delegate, the app delegate, during state transitions within the app.

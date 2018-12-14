@@ -1,0 +1,1 @@
+activity viewer:	Part of the Xcode toolbar that displays messages about the build process and other information.

@@ -1,0 +1,1 @@
+adaptive interface: A user interface (UI) that automatically adjusts so that it looks good in the context of the available screen space.

@@ -1,0 +1,1 @@
+view controller: An object that manages a set of views and coordinates the flow of information between the app's data model and the views that display that data.

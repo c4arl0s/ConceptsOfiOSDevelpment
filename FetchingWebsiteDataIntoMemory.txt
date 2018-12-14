@@ -1,0 +1,65 @@
+Receive data directly into memory by creating a data task from a URL session.
+
+Overview
+For small interactions with remote servers, you can use the URLSessionDataTask class to receive response data into memory (as opposed to using the URLSessionDownloadTask class, which stores the data directly to the file system). A data task is ideal for uses like calling a web service endpoint.
+
+You use a URL session instance to create the task. If your needs are fairly simple, you can use the shared instance of the URLSession class.
+
+If you want to interact with the transfer through delegate callbacks, you’ll need to create a session instead of using the shared instance. 
+
+ You use a URLSessionConfiguration instance when creating a session, also passing in a class that implements URLSessionDelegate or one of its subprotocols. 
+
+Sessions can be reused to create multiple tasks, so for each unique configuration you need, create a session and store it as a property.
+
+Note: Be careful to not create more sessions than you need. For example, if you have several parts of your app that need a similarly configured session, create one session and share it among them.
+
+Once you have a session, you create a data task with one of the dataTask() methods. Tasks are created in a suspended state, and can be started by calling resume().
+
+Receive Results with a Completion Handler
+
+- The simplest way to fetch data is to create a data task that uses a completion handler. 
+- With this arrangement, the task delivers the server’s response, data, and possibly errors to a completion handler block that you provide. 
+- Please see the picture. It shows the relationship between a session and a task, and how results are delivered to the completion handler.
+
++------------+----------------+--------------------+---------------------------------------------+-------------------+
+| URLSession | -- creates --> | URLSessionDataTask | -- send data, request, error parameters.--> | CompletionHandler |
++------------+----------------+--------------------+---------------------------------------------+-------------------+
+
+- To create a data task that uses a completion handler, call the dataTask(with:) method of URLSession. Your completion handler needs to do three things:
+
+1.- Verify that the error parameter is nil. If not, a transport error has occurred; handle the error and exit.
+2.- Check the response parameter to verify that the status code indicates success and that the MIME type is an expected value. If not, handle the server error and exit.
+3.- Use the data instance as needed.
+
+Listing 1 shows a startLoad() method for fetching a URL’s contents. 
+- It starts by using the URLSession class’s shared instance to create a data task that delivers its results to a completion handler. 
+- After checking for local and server errors, this handler converts the data to a string, and uses it to populate a WKWebView outlet. 
+- Of course, your app might have other uses for fetched data, like parsing it into a data model.
+
+Listing 1 
+Creating a completion handler to receive data-loading results
+
+func startLoad() {
+    let url = URL(string: "https://www.example.com/")!
+    let task = URLSession.shared.dataTask(with: url) { data, response, error in
+        if let error = error {
+            self.handleClientError(error)
+            return
+        }
+        guard let httpResponse = response as? HTTPURLResponse, (200...299).contains(httpResponse.statusCode) else { 
+						self.handleServerError(response)
+            return
+        }
+        if let mimeType = httpResponse.mimeType, mimeType == "text/html",
+            let data = data,
+            let string = String(data: data, encoding: .utf8) {
+            DispatchQueue.main.async {
+                self.webView.loadHTMLString(string, baseURL: url)
+            }
+        }
+    }
+    task.resume()
+}
+
+
+

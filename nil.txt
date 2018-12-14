@@ -1,0 +1,1 @@
+nil: The absence of a value or no value.

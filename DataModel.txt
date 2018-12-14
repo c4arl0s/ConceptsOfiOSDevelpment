@@ -1,0 +1,1 @@
+data model: The representation or structure of data within an app.

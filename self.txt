@@ -1,0 +1,2 @@
+self is a property on the instance that refers to itself. 
+It's used to access class, structure and enumeration instance within methods.

@@ -1,0 +1,1 @@
+superclass: A class that's a parent of another class (known as its subclass).

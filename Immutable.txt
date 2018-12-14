@@ -1,0 +1,1 @@
+immutable: A value that cannot be changed (or mutated) after it's initialized, like a constant.

@@ -1,0 +1,1 @@
+Identity inspector: An inspector that you use to edit properties of an object in a storyboard related to that object's identity, such as what class the object belongs to.

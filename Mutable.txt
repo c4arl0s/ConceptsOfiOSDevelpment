@@ -1,0 +1,1 @@
+mutable: A value that is able to be changed (or mutated) after it's initialized, like a variable.

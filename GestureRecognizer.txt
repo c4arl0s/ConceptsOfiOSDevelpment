@@ -1,0 +1,1 @@
+gesture recognizer: An object that you attach to a view that allows the view to respond to actions the way a control does.

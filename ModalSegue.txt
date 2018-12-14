@@ -1,0 +1,1 @@
+modal segue: A segue in which one view controller presents another view controller as its child. The user must interact with the presented controller, and dismiss it before returning to the app's main flow. Use modal segues to present tasks that the user must complete before continuing.

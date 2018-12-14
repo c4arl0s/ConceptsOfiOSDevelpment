@@ -1,0 +1,1 @@
+UIImagePickerControllerOriginalImage: Specifies the original, uncropped image selected by the user.

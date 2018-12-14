@@ -1,0 +1,1 @@
+root view controller: The first item added to a the navigation stack of a navigation controller. The root view controller is never popped off (removed from) the stack.

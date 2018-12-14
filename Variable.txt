@@ -1,0 +1,1 @@
+variable: A value that can change after it's been initialized, indicated in Swift by the var keyword.

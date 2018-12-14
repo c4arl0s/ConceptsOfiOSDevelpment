@@ -1,0 +1,1 @@
+app delegate: An object in your app (specifically, an instance of the AppDelegate class) that creates the window where your app's content is drawn and that provides a place to respond to state transitions within the app.

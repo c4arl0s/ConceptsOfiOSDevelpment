@@ -1,0 +1,1 @@
+class: A piece of code that describes the behavior and properties common to any particular type of object, essentially providing a blueprint for the object.

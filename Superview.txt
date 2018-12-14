@@ -1,0 +1,1 @@
+superview: A view that encloses another view (known as its subview).
