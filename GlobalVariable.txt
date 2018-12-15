@@ -1,0 +1,1 @@
+it is a variable that can be accessed from any function at any time. We call these global variables. To make a variable global, you declare it outside of a particular function. 

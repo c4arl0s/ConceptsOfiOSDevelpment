@@ -1,0 +1,1 @@
+Static variable is like a global variable in that it is declare outside of any function. However, a static variable is only accessible from the code in the file where it was declared.
