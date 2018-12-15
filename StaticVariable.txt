@@ -1,1 +1,3 @@
-Static variable is like a global variable in that it is declare outside of any function. However, a static variable is only accessible from the code in the file where it was declared.
+Any complex program will involve dozen of files containing different functions. Global variables are available to the code in every one of those files. Sometimes sharing a variable between different files is what you want. But as you can imagine, having a variable that can be accessed by multiple functions can also lead to great confusion.
+
+A Static variable is like a global variable in that it is declare outside of any function. However, a static variable is only accessible from the code in the file where it was declared.
