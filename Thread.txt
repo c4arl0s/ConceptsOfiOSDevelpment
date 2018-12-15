@@ -1,0 +1,1 @@
+Un thread es un "hilo" de ejecucion de programa. Casi podriamos decir que un Thread o hilo es un programa en ejecucion ya que en general un programa tiene un solo hilo de ejecucion. Cuando se ejecuta un programa o el sistema operativo crea un hilo para ejecutar un programa.
