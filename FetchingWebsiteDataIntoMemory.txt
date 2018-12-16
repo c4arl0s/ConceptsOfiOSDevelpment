@@ -22,7 +22,7 @@ Receive Results with a Completion Handler
 - Please see the picture. It shows the relationship between a session and a task, and how results are delivered to the completion handler.
 
 +------------+----------------+--------------------+---------------------------------------------+-------------------+
-| URLSession | -- creates --> | URLSessionDataTask | -- send data, request, error parameters.--> | CompletionHandler |
+| URLSession | -- creates --> | URLSessionDataTask | -- send (data, request, error) parameters.--> | CompletionHandler |
 +------------+----------------+--------------------+---------------------------------------------+-------------------+
 
 - To create a data task that uses a completion handler, call the dataTask(with:) method of URLSession. Your completion handler needs to do three things:
