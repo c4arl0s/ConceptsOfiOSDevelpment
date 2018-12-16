@@ -1,0 +1,1 @@
+Treads are a relatively lighteight wat to implement multiple paths of execution inside of an application.
