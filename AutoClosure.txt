@@ -1,1 +1,1 @@
-An autoclosure is a closure that is automatically created to wrap an expression thats being passed as an argument to a function. If you want to an autoclosure that is allowed to scape, use both @autoclosure and @scaping attribytes
+An autoclosure is a closure that is automatically created to wrap an expression thats being passed as an argument to a function. If you want to an autoclosure that is allowed to scape, use both @autoclosure and @scaping attribytes.
