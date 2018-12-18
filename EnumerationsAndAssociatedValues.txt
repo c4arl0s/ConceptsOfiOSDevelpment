@@ -1,0 +1,33 @@
+Enumerations and Associated Values: Associated values are a useful feature of enumerations. Let’s take a moment to look at a simple example before you use this feature in Photorama.
+
+Enumerations are a convenient way of defining and restricting the possible values for a variable. 
+
+For example, let’s say you are working on a home automation app. You could define an enumeration to specify the oven state, like this:
+
+enum OvenState {
+  case on
+	case off 
+}
+
+enum OvenState {
+	case on(Double)
+	case off 
+}
+var ovenState = OvenState.on(450)
+
+Each case of an enumeration can have data of any type associated with it. 
+
+For OvenState, its .on case has an associated Double that represents the oven’s temperature. Notice that not all cases need to have associated values.
+
+Retrieving the associated value from an enum is often done using a switch statement.
+
+switch ovenState {
+	case let .on(temperature):
+			print("The oven is on and set to \(temperature) degrees.")
+	case .off: 
+			print("The oven is off.")
+}
+
+Note that the .on case uses a let keyword to store the associated value in the temperature constant, which can be used within the case clause. (You can use the var keyword instead if temperature needs to be a variable.)
+
+Considering the value given to ovenState, the switch statement above would result in the line The oven is on and set to 450 degrees. printed to the console.
