@@ -1,0 +1,1 @@
+A structure that parses URLs into and constructs URLs from their constituent parts.

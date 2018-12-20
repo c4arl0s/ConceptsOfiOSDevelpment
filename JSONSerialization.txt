@@ -1,0 +1,1 @@
+JSONSerialization: The JSONSerialization class is responsible for returning a Data object, which can then be passed as an HTTPBody to a request.
