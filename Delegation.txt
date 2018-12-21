@@ -1,0 +1,5 @@
+Delegation is used for everything from handling table view events using UITableViewDelegate, to modifying cache behavior using NSCacheDelegate. The core purpose of the delegate pattern is to allow an object to communicate back to its owner in a decoupled way.
+
+When to delegate ?
+
+Delegation is usually a good choice when a type needs to be usable in many different contexts.
