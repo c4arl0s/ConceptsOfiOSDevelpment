@@ -1,1 +1,8 @@
 JSONSerialization: The JSONSerialization class is responsible for returning a Data object, which can then be passed as an HTTPBody to a request.
+
+Any number of things could go wrong, such as:
+
+* the JSON is just completely invalid (missing an opening brace, a closing brace, a comma, quotation marks, or something else)
+* you expect an integer in the JSON but get a string (or you expect a boolean and get an integer, or whatever…)
+* one of the values in the JSON is null
+* the structure of the JSON is different from what you expect

@@ -3,3 +3,7 @@ Delegation is used for everything from handling table view events using UITableV
 When to delegate ?
 
 Delegation is usually a good choice when a type needs to be usable in many different contexts.
+
+Definition
+Adventages:	Reusabilidad, loose Coupling, Separation of Responsabilities.
+
