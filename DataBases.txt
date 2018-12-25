@@ -1,0 +1,6 @@
+Databases are used for large quantities of data. They use:
+
+* Tables, which store data.
+* Schemas, which define the kind of information stored in a Table.
+* Queries, which are used to retrieve or manipulate data from tables.
+* Views, which hold results of queries.

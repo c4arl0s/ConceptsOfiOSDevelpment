@@ -5,4 +5,10 @@ Any number of things could go wrong, such as:
 * the JSON is just completely invalid (missing an opening brace, a closing brace, a comma, quotation marks, or something else)
 * you expect an integer in the JSON but get a string (or you expect a boolean and get an integer, or whatever…)
 * one of the values in the JSON is null
-* the structure of the JSON is different from what you expect
+* the structure of the JSON is different from what you expec.
+
+JSON, stands for JavaScript Object Notation
+
+Data is a collection of symbols on which operations are performed usually by computers. Data is quantitative, it takes up storage such as 3 kilobytes. For example, a piece of data is “June 2, 2014”, a date.
+
+
