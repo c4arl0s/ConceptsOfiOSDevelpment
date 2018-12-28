@@ -1,0 +1,1 @@
+Constraints: It is the relations between views. Basically, there are two types of constraints for a view. One is the size an space betwwn views. usually neighbor views. These we call pins. The other is between two specific views by an attribute of the view. These we call alighment or aligns.

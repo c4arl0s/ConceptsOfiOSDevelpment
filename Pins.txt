@@ -1,0 +1,1 @@
+Pins: For a pin, you select one object and describe how far away it is from its nearest neightbors. All pins constraints are foun on the pin button. If you were to select a view and open the pin menu with the icon, you would see this: See the image.
