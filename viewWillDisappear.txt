@@ -1,0 +1,1 @@
+This method is called before the main view is removed from the screen.

@@ -1,0 +1,1 @@
+This method is called after the viewDidLoad() method and before the main view is shown on the screen.

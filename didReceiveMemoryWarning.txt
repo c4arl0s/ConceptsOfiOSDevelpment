@@ -1,0 +1,1 @@
+This method is called when the app receives a memory warning from the system. It is used to free memory and avoid our app being terminated.
