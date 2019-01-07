@@ -1,0 +1,1 @@
+Constraint Error: Once you start working with constraints, you will get a lot of warnings. All errors for constraints start as a warning, though they may become fatal errors at runtime. You will need to resolve all these errors. There are three types of errors: misplaced views, missing constraints and conflicting constraints.

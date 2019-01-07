@@ -1,0 +1,1 @@
+This method is called after the main view and its content ios loaded in memory. It is the first method called on the object to indicate that the main view is ready to be shown on the screen.

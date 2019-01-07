@@ -1,0 +1,1 @@
+Missin Constraints: a second kind of error is missing constraints, sometimes referred to as ambiguous constraints. All views using constraints need enough information to determine location and size of the view.
