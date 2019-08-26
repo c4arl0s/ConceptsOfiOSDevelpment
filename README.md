@@ -648,6 +648,10 @@ target-action: A design pattern in which one object sends a message to another o
 
 target: The object that receives the action message in the target-action pattern.
 
+# Glossary Programming in Objective-C - Stephen G. Kochan.
+
+**automatic variable** : A variable that is automatically allocated and released when a statement block is entered and exited.Automatic variables have scope that is limited to the block in which they are defined and have no default initial value.They are optionally preceded by the keyword auto.
+
 The entry point for every C-based app is the main function and iOS apps are no different. What is different is that for iOS apps you do not write the main function yourself. Instead, Xcode creates this function as part of your basic project. Listing 2-1 shows an example of this function. With few exceptions, you should never change the implementation of the main function that Xcode provides.
 
 Listing 2-1  The main function of an iOS app
