@@ -656,7 +656,12 @@ target: The object that receives the action message in the target-action pattern
 
 # Glossary Programming in Objective-C - Stephen G. Kochan.
 
-**automatic variable** : A variable that is automatically allocated and released when a statement block is entered and exited.Automatic variables have scope that is limited to the block in which they are defined and have no default initial value.They are optionally preceded by the keyword auto.
+# Automatic variable** : 
+A variable that is automatically allocated and released when a statement block is entered and exited.Automatic variables have scope that is limited to the block in which they are defined and have no default initial value.They are optionally preceded by the keyword auto.
+
+# Data encapsulation :
+The notion that the data for an object is stored in its instance variables and is accessed only by the object's methods. This mantains the integrity of the data.
+
 
 The entry point for every C-based app is the main function and iOS apps are no different. What is different is that for iOS apps you do not write the main function yourself. Instead, Xcode creates this function as part of your basic project. Listing 2-1 shows an example of this function. With few exceptions, you should never change the implementation of the main function that Xcode provides.
 
